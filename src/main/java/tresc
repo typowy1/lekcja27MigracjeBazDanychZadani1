@@ -1,0 +1,26 @@
+Treść zadania
+Etap 1.
+
+Przygotuj podwaliny aplikacji, która w profilu dev łączy się z bazą danych H2, a w profilu prod z MySQL.
+
+Schemat aplikacji powinien być generowany za pomocą liquibase. Aplikacja powinna umożliwiać wyświetlanie listy użytkowników oraz dodawanie nowych za pomocą formularza.
+
+Encja użytkownika posiada następujące dane:
+
+    Imię
+    Nazwisko
+    Data urodzenia
+
+Przygotuj dane testowe (min. 3 użytkowników). Co najmniej jeden użytkownik powinien być urodzony w aktualnym miesiącu.
+Etap 2.
+
+Do aplikacji dodaj informacje o:
+
+    mailu użytkownika
+    czy zapisał się na newsletter
+
+W tym celu dodaj skrypt migracyjny do bazy danych.
+https://bootcamp.javastart.pl/konto/zadanie/646
+https://www.youtube.com/watch?v=SBr80UBvQS8&feature=emb_title
+http://git.javastart.pl/rozwiazania/profile-i-migracje-rozwiazanie-124124d
+P:\Projekty\Bootcamp java\Baza danych\lekcja27MigracjeBazDanychZadani1
